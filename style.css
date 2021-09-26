@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@font-face {
+	font-family: 'Minecraft Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Minecraft Regular'), url('1_MinecraftRegular1.woff') format('woff');
+}
+
 body {
 	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+	font-family: 'Minecraft Regular';
+	color: white;
+	font-weight: 600;
 }
 
 .container {
@@ -12,7 +18,16 @@ body {
 }
 
 header {
-  background: #55d6aa;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background: rgb(74,111,40);
+ background: linear-gradient(40deg, rgba(74,111,40,1) 0%, rgba(91,139,50,1) 100%);
+}
+
+header:hover {
+ transition: all ease-in-out 250ms;
+ border-bottom-left-radius: 14px;
+ border-bottom-right-radius: 14px;
 }
 
 header::after {
@@ -27,13 +42,14 @@ header::after {
 }
 
 body {
-  background: #999;
-  margin: 0;
-  padding: 0;
+	background: #212121;
+	margin: 0;
+	padding: 0;
 }
 
 nav {
-  float: right;
+	display: table;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -46,27 +62,27 @@ nav li {
   display: inline-block;
   margin-left: 25px;
   margin-right: 25px;
-  padding-top: 23px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: relative;
 }
 
 nav a {
-  color: #444;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 nav a:hover {
-  color: #000;
+  color: #fff;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 1px;
-  background-color: #444;
+  background-color: #fff;
 
   position: left;
   top: 0;
