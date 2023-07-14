@@ -21,8 +21,8 @@ nav li a{
     padding: 0.3rem;
     padding-right: 0.8rem;
     padding-left: 0.8rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     font-size: 22px;
     font-weight: bold;
     background-color: #FFF000;
@@ -42,10 +42,7 @@ nav li a:hover{
     text-decoration: none;
     display: inline-block;
     position: static;
-    padding: 0.3rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    font-size: 28px;
+    transform: scale(115%);
     font-weight: bold;
     background-color: #F5DA42;
     opacity: 75%;
@@ -65,5 +62,39 @@ html {
 body h1 {
     padding-left: 3rem;
     padding-right: 3rem;
-    position: static;
+    position: relative;
+}
+
+#error404 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#aboutcontents {
+    display: flex;
+    background-color: grey;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 6.5rem;
+    max-width: 80%;
+}
+
+#aboutcontents:hover {
+    display: flex;
+    background-color: grey;
+    border-radius: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    margin-left: 6.5rem;
+    max-width: 80%;
+    transform: scale(110%);
+}
+
+#airplaneicon:hover{
+    transform: scale(110%);
 }
