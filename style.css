@@ -62,7 +62,7 @@ nav li {
   display: inline-block;
   margin-left: 25px;
   margin-right: 25px;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -93,4 +93,11 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+#notmaintained{
+    background-color: yellow;
+    padding: 1.5rem;
+    color: black;
+    font-size: 20px;
 }
