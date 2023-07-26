@@ -28,6 +28,7 @@ nav li a{
     background-color: #FFF000;
     border-radius: 15px;
     padding: 0.5;
+    transition: .5s ease-in-out;
 }
 
 nav li a:link{
@@ -53,7 +54,6 @@ nav li a:hover{
     background-color: #F5DA42;
     opacity: 75%;
     border-radius: 13px;
-    transition: .5s ease;
 }
 
 html {
